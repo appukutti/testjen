@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="560044" started-at="2021-05-18T03:30:35Z" finished-at="2021-05-18T03:39:56Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestClass.corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@52aa2946]" name="corporateWellnessPage" class="com.testScript.TestClass"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestClass.hospitalList()[pri:1, instance:com.testScript.TestClass@52aa2946]" name="hospitalList" class="com.testScript.TestClass"/>
+        <method signature="TestClass.diagonosticsPage()[pri:2, instance:com.testScript.TestClass@52aa2946]" name="diagonosticsPage" class="com.testScript.TestClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="560044" started-at="2021-05-18T03:30:35Z" finished-at="2021-05-18T03:39:56Z">
+      <class name="com.testScript.TestClass">
+        <test-method status="PASS" signature="hospitalList()[pri:1, instance:com.testScript.TestClass@52aa2946]" name="hospitalList" duration-ms="164660" started-at="2021-05-18T03:30:35Z" finished-at="2021-05-18T03:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hospitalList -->
+        <test-method status="PASS" signature="diagonosticsPage()[pri:2, instance:com.testScript.TestClass@52aa2946]" name="diagonosticsPage" duration-ms="6947" started-at="2021-05-18T03:33:20Z" depends-on-methods="com.testScript.TestClass.hospitalList" finished-at="2021-05-18T03:33:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diagonosticsPage -->
+        <test-method status="PASS" signature="corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@52aa2946]" name="corporateWellnessPage" duration-ms="388364" started-at="2021-05-18T03:33:27Z" depends-on-methods="com.testScript.TestClass.diagonosticsPage" finished-at="2021-05-18T03:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporateWellnessPage -->
+      </class> <!-- com.testScript.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
