@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 567.004 sec - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 35.659 sec <<< FAILURE! - in TestSuite
+hospitalList(com.testScript.TestClass)  Time elapsed: 32.958 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "com.automationScript.BaseUI.driver" is null
+	at com.automationScript.BaseUI.openBrowserAndNavigateToPracto(BaseUI.java:42)
+	at com.testScript.TestClass.open(TestClass.java:29)
+	at com.testScript.TestClass.hospitalList(TestClass.java:36)
+

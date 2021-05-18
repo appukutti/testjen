@@ -9,12 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">560,044</td><td>regression, smoke</td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">32,813</td><td>regression, smoke</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.testScript.TestClass</td><td><a href="#m0">corporateWellnessPage</a></td><td rowspan="1">1621308807645</td><td rowspan="1">388364</td></tr><tr class="passedeven"><td><a href="#m1">diagonosticsPage</a></td><td rowspan="1">1621308800697</td><td rowspan="1">6947</td></tr><tr class="passedeven"><td><a href="#m2">hospitalList</a></td><td rowspan="1">1621308635988</td><td rowspan="1">164660</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testScript.TestClass</td><td><a href="#m0">hospitalList</a></td><td rowspan="1">1621313843292</td><td rowspan="1">32696</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.testScript.TestClass</td><td><a href="#m1">corporateWellnessPage</a></td><td rowspan="1">1621313876080</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">diagonosticsPage</a></td><td rowspan="1">1621313876079</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.testScript.TestClass#corporateWellnessPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.testScript.TestClass#diagonosticsPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.testScript.TestClass#hospitalList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.testScript.TestClass#hospitalList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;com.automationScript.BaseUI.driver&quot; is null
+	at com.automationScript.BaseUI.openBrowserAndNavigateToPracto(BaseUI.java:42)
+	at com.testScript.TestClass.open(TestClass.java:29)
+	at com.testScript.TestClass.hospitalList(TestClass.java:36)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testScript.TestClass#corporateWellnessPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestClass.corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@57a3e26a] depends on not successfully finished methods
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testScript.TestClass#diagonosticsPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestClass.diagonosticsPage()[pri:2, instance:com.testScript.TestClass@57a3e26a] depends on not successfully finished methods
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
