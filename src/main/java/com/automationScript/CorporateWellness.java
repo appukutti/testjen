@@ -112,7 +112,7 @@ public class CorporateWellness extends BaseUI{
 			org.selectByVisibleText("501-1000");
 			TimeUnit.SECONDS.sleep(1);
 			clickElement(button);
-			TimeUnit.MINUTES.sleep(3);
+			TimeUnit.MINUTES.sleep(2);
 			ArrayList<String> message = new ArrayList<String>();
 			if(isAlertPresent()) {
 				handleAlert();
