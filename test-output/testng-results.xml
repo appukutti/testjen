@@ -2,31 +2,35 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-17T14:08:06 IST" name="Suite" finished-at="2021-05-17T14:16:32 IST" duration-ms="506135">
+  <suite started-at="2021-05-22T07:37:41Z" name="Default suite" finished-at="2021-05-22T07:45:52Z" duration-ms="491223">
     <groups>
       <group name="regression">
-        <method signature="TestClass.corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@696da30b]" name="corporateWellnessPage" class="com.testScript.TestClass"/>
+        <method signature="TestClass.corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@3f56875e]" name="corporateWellnessPage" class="com.testScript.TestClass"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TestClass.hospitalList()[pri:1, instance:com.testScript.TestClass@696da30b]" name="hospitalList" class="com.testScript.TestClass"/>
-        <method signature="TestClass.diagonosticsPage()[pri:2, instance:com.testScript.TestClass@696da30b]" name="diagonosticsPage" class="com.testScript.TestClass"/>
+        <method signature="TestClass.hospitalList()[pri:1, instance:com.testScript.TestClass@3f56875e]" name="hospitalList" class="com.testScript.TestClass"/>
+        <method signature="TestClass.diagonosticsPage()[pri:2, instance:com.testScript.TestClass@3f56875e]" name="diagonosticsPage" class="com.testScript.TestClass"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2021-05-17T14:08:06 IST" name="Test" finished-at="2021-05-17T14:16:32 IST" duration-ms="506135">
+    <test started-at="2021-05-22T07:37:41Z" name="Default test" finished-at="2021-05-22T07:45:52Z" duration-ms="491223">
       <class name="com.testScript.TestClass">
-        <test-method signature="hospitalList()[pri:1, instance:com.testScript.TestClass@696da30b]" started-at="2021-05-17T14:08:06 IST" name="hospitalList" finished-at="2021-05-17T14:09:56 IST" duration-ms="110184" status="PASS">
+        <test-method signature="hospitalList()[pri:1, instance:com.testScript.TestClass@3f56875e]" started-at="2021-05-22T07:37:41Z" name="hospitalList" finished-at="2021-05-22T07:39:22Z" duration-ms="101180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hospitalList -->
-        <test-method signature="diagonosticsPage()[pri:2, instance:com.testScript.TestClass@696da30b]" started-at="2021-05-17T14:09:56 IST" name="diagonosticsPage" finished-at="2021-05-17T14:10:03 IST" depends-on-methods="com.testScript.TestClass.hospitalList" duration-ms="7376" status="PASS">
+        <test-method signature="diagonosticsPage()[pri:2, instance:com.testScript.TestClass@3f56875e]" started-at="2021-05-22T07:39:22Z" name="diagonosticsPage" finished-at="2021-05-22T07:39:27Z" depends-on-methods="com.testScript.TestClass.hospitalList" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- diagonosticsPage -->
-        <test-method signature="corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@696da30b]" started-at="2021-05-17T14:10:03 IST" name="corporateWellnessPage" finished-at="2021-05-17T14:16:32 IST" depends-on-methods="com.testScript.TestClass.diagonosticsPage" duration-ms="388511" status="PASS">
+        <test-method signature="corporateWellnessPage()[pri:3, instance:com.testScript.TestClass@3f56875e]" started-at="2021-05-22T07:39:27Z" name="corporateWellnessPage" finished-at="2021-05-22T07:45:52Z" depends-on-methods="com.testScript.TestClass.diagonosticsPage" duration-ms="384565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- corporateWellnessPage -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testScript.TestClass@3f56875e]" started-at="2021-05-22T07:45:52Z" name="endReport" finished-at="2021-05-22T07:45:52Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- com.testScript.TestClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

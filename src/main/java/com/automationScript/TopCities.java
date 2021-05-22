@@ -42,9 +42,10 @@ public class TopCities extends BaseUI{
 		
 		System.out.println("*****************************************************************");
 		System.out.println("*************************List Of Top Cities**********************");
-	
+		TimeUnit.SECONDS.sleep(1);
 		for( WebElement product : cities){
 			System.out.println(product.getText());
+			
 			topCities.add(product.getText());
 		}
 		

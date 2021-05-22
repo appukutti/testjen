@@ -21,7 +21,8 @@ import org.testng.Assert;
 import com.DriverSetup.DriverSetup;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.testScript.TestClass;
+import com.testScript.*;
+
 
 public class BaseUI {
 	static WebDriver driver = null;
